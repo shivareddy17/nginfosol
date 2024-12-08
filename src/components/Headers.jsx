@@ -11,27 +11,29 @@ const Header = () => (
         UIROLL
       </div>
 
-      <a
-        href="/analytics"
-        className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
-      >
-        <img src={HomeIcon} alt="Home Icon" />
-        Home
-      </a>
-      <a
-        href="/analytics"
-        className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
-      >
-        <img src={Analytics} alt="Analytics Icon" />
-        Analytics
-      </a>
-      <a
-        href="/customization"
-        className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
-      >
-        <img src={Customisation} alt="Customization Icon" />
-        Platform Customization
-      </a>
+      <div className="hidden md:flex items-center gap-4">
+        <a
+          href="/analytics"
+          className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
+        >
+          <img src={HomeIcon} alt="Home Icon" />
+          Home
+        </a>
+        <a
+          href="/analytics"
+          className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
+        >
+          <img src={Analytics} alt="Analytics Icon" />
+          Analytics
+        </a>
+        <a
+          href="/customization"
+          className="text-gray-600 hover:text-indigo-600 flex gap-1 transform transition-transform duration-300 hover:scale-105"
+        >
+          <img src={Customisation} alt="Customization Icon" />
+          Platform Customization
+        </a>
+      </div>
     </div>
 
     <nav className="flex items-center gap-6">
