@@ -23,7 +23,7 @@ const EmployeeOnboarding = () => {
               Filter
             </button>
             <button className="bg-gray-200 px-4 py-2 rounded-md text-gray-800 hover:bg-gray-300 flex">
-            <img src={filter} alt="" />
+            <img src={exporticon} alt="" />
               Export
             </button>
           </div>
